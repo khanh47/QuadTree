@@ -1,0 +1,9 @@
+# Executables
+*.exe
+
+# Build folder 
+build
+
+makefile
+Makefile
+/.vscode
