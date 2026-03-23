@@ -1,4 +1,4 @@
-# Point Quad Tree - 2D Range Queries
+# Region Quad Tree - 2D Range Queries
 
 This repository contains C++ and Python implementations of a QuadTree for indexing 2D points and answering rectangle range queries.
 
