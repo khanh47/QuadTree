@@ -23,7 +23,7 @@ class Rect:
 
 class QuadTree:
     def __init__(self, boundary, capacity=4):
-        self.boundary = boundary # Đối tượng Rect
+        self.boundary = boundary 
         self.capacity = capacity
         self.points = []
         self.divided = False
