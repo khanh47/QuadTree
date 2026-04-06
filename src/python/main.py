@@ -1,9 +1,9 @@
 try:
     # Works when run as a module: python -m src.python.quadtree_example
-    from .fast_quadtree.core import QuadTree, Point, Rect
+    from .quadtree.core import QuadTree, Point, Rect
 except ImportError:
     # Works when run directly: python quadtree_example.py
-    from fast_quadtree.core import QuadTree, Point, Rect
+    from quadtree.core import QuadTree, Point, Rect
 
 
 def run_example():
