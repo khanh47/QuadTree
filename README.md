@@ -18,16 +18,12 @@ A naive approach costs O(N) per query and O(N.Q) total. QuadTree indexing reduce
 ```text
 src/
   cpp/
-    quadtree_example.cpp
+    main.cpp
   python/
-    quadtree_example.py
-    fast_quadtree/
+    main.py
+    quadtree/
       __init__.py
       core.py
-data/
-  input/
-  cpp_output/
-  python_output/
 ```
 
 ## Implementation overview (C++ and Python)
@@ -88,14 +84,14 @@ int main() {
 From the QuadTree root directory:
 
 ```bash
-python src/python/quadtree_example.py
+python src/python/main.py
 ```
 
 ### Python quickstart
 
 ```python
 # 1) Import
-from src.python.fast_quadtree import QuadTree, Point, Rect
+from src.python.quadtree import QuadTree, Point, Rect
 
 # 2) Initialize tree boundary and capacity
 boundary = Rect(0, 0, 100, 100)
